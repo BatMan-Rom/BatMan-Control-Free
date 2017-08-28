@@ -526,6 +526,7 @@
         <item>@drawable/gif33</item>
         <item>@drawable/gif34</item>
         <item>@drawable/gif35</item>
+        <item>@drawable/gif36</item>
     </array>
     <string-array name="gif_animation_entries">
         <item>@string/Abstract</item>
@@ -563,6 +564,7 @@
         <item>@string/WavingFrozen</item>
         <item>@string/SMLogoRed</item>
         <item>@string/SMLogoBlue</item>
+        <item>@string/SMLogoBlack</item>
     </string-array>
     <string-array name="gif_animation_entries_values" translatable="false">
         <item>1</item>
@@ -600,6 +602,7 @@
         <item>33</item>
         <item>34</item>
         <item>35</item>
+        <item>36</item>
     </string-array>
 
     <array name="signal_drawables">
@@ -619,6 +622,7 @@
         <item>@drawable/signal14</item>
         <item>@drawable/signal15</item>
         <item>@drawable/signal16</item>
+        <item>@drawable/signal17</item>
     </array>
     <string-array name="signal_entries">
         <item>@string/Signal1</item>
@@ -637,6 +641,7 @@
         <item>@string/Signal14</item>
         <item>@string/Signal15</item>
         <item>@string/Signal16</item>
+        <item>@string/Signal17</item>
     </string-array>
     <string-array name="signal_values" translatable="false">
         <item>1</item>
@@ -655,6 +660,7 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
+        <item>17</item>
     </string-array>
 
     <array name="wifi_drawables">
