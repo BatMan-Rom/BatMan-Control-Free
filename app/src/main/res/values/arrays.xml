@@ -23,19 +23,6 @@
         <item>@string/RestoreData</item>
     </string-array>
 
-    <string-array name="thumbnail_items">
-        <item>@string/Icon1</item>
-        <item>@string/Icon2</item>
-    </string-array>
-    <string-array name="thumbnail_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="thumbnail_drawables">
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
-    </array>
-
     <string-array name="battery_bar_entries">
         <item>@string/Hidden</item>
         <item>@string/ShowOnTop</item>
@@ -623,6 +610,7 @@
         <item>@drawable/signal15</item>
         <item>@drawable/signal16</item>
         <item>@drawable/signal17</item>
+        <item>@drawable/signal17</item>
     </array>
     <string-array name="signal_entries">
         <item>@string/Signal1</item>
@@ -642,6 +630,7 @@
         <item>@string/Signal15</item>
         <item>@string/Signal16</item>
         <item>@string/Signal17</item>
+        <item>@string/Signal18</item>
     </string-array>
     <string-array name="signal_values" translatable="false">
         <item>1</item>
@@ -661,6 +650,7 @@
         <item>15</item>
         <item>16</item>
         <item>17</item>
+        <item>18</item>
     </string-array>
 
     <array name="wifi_drawables">
@@ -808,6 +798,64 @@
         <item>300000</item>
     </string-array>
 
+    <string-array name="lock_screen_allow_remote_input_entries">
+        <item>@string/Disabled</item>
+        <item>@string/Enabled</item>
+    </string-array>
+    <string-array name="lock_screen_allow_remote_input_values" translatable="false">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="qs_tile_column_entries" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="qs_tile_column_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="qs_tile_column_landscape_entries" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="qs_tile_column_landscape_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="qs_tile_row_entries" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="qs_tile_row_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
     <string-array name="immersive_entries">
         <item>@string/MiscImmersiveArrayOff</item>
         <item>@string/MiscImmersiveArrayOn</item>
@@ -819,6 +867,56 @@
         <item>immersive.full=*</item>
         <item>immersive.status=*</item>
         <item>immersive.navigation=*</item>
+    </string-array>
+
+    <string-array name="listview_animation_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_wave_left</item>
+        <item>@string/listview_wave_right</item>
+        <item>@string/listview_scale</item>
+        <item>@string/listview_alpha</item>
+        <item>@string/listview_top</item>
+        <item>@string/listview_bottom</item>
+        <item>@string/listview_unfold</item>
+        <item>@string/listview_fold</item>
+        <item>@string/listview_left</item>
+        <item>@string/listview_right</item>
+        <item>@string/listview_rotate</item>
+    </string-array>
+    <string-array name="listview_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="listview_interpolator_entries">
+        <item>@string/listview_off</item>
+        <item>@string/listview_accelerate</item>
+        <item>@string/listview_decelerate</item>
+        <item>@string/listview_accelerate_decelerate</item>
+        <item>@string/listview_anticipate</item>
+        <item>@string/listview_overshoot</item>
+        <item>@string/listview_anticipate_overshoot</item>
+        <item>@string/listview_bounce</item>
+    </string-array>
+    <string-array name="listview_interpolator_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
     </string-array>
 
 </resources>
