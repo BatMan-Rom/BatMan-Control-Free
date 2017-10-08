@@ -610,7 +610,7 @@
         <item>@drawable/signal15</item>
         <item>@drawable/signal16</item>
         <item>@drawable/signal17</item>
-        <item>@drawable/signal17</item>
+        <item>@drawable/signal18</item>
     </array>
     <string-array name="signal_entries">
         <item>@string/Signal1</item>
