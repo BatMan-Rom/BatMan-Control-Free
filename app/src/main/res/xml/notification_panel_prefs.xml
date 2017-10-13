@@ -93,8 +93,8 @@
             android:title="@string/ClearMemory" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#ff22c4ff"
-            android:dependency="enable_blur"
-            android:key="pekaka_memCleanView"
+            android:dependency="pekaka_memCleanView"
+            android:key="db_inkeffect_pekaka_memkiller_picker"
             android:title="@string/WeatherColor" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
