@@ -72,7 +72,6 @@
         </PreferenceScreen>
     </PreferenceCategory>
 
-
     <PreferenceCategory
         android:title="@string/AboutAFH">
         <PreferenceScreen
